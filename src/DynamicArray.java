@@ -99,7 +99,7 @@ public class DynamicArray {
         dynamicArray.printArray();
 
         // Remove more elements to trigger shrinking
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 11; i++) {
             dynamicArray.remove(0);
         }
         System.out.println("Array after removing multiple elements:");
